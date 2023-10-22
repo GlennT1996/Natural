@@ -1,0 +1,60 @@
+@media screen and (max-width: 992px) {
+    .navbar {
+        display: none;
+    }
+
+    .card-2 {
+        width: 75%;
+    }
+
+    .post-thumbnail {
+        margin-bottom: 5%;
+    }
+
+    #reversed-thumbnail {
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #carousel-1 {
+        display: none;
+    }
+
+    .brand-logo {
+        width: 156px;
+        height: 46px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card-1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .card-title,
+    .card-text {
+        font-size: medium;
+    }
+
+    #news-letter,
+    #home-header,
+    #mobile-nav,
+    #footer {
+        width: 95%;
+    }
+
+    .brand-logo {
+        width: 106px;
+        height: 36px;
+    }
+}

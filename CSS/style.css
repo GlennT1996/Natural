@@ -1,0 +1,35 @@
+body {
+  background: url("https://images.squarespace-cdn.com/content/v1/5d714d9ece118000018a30bd/1568672220045-EZV7NIFJGI2T5L5A78VZ/gril8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#home-header {
+  background-image: url("https://organicthemes.com/demo/natural-block/files/2023/05/natural-header-04.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#news-letter {
+  background: url("https://organicthemes.com/demo/natural-block/files/2023/05/natural-header-03.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar,
+.nav {
+  background-color: #656B83;
+}
+
+.img-gallery {
+  overflow: hidden;
+}
+
+.img-gallery img {
+  transition: all 1.3s ease;
+}
+
+.img-gallery:hover img {
+  transform: scale(1.2);
+}
